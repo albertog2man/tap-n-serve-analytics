@@ -25,7 +25,7 @@ class PingsController < ApplicationController
   # POST /pings.json
   def create
     # if params[:data]
-    p params
+    p params[:data]
 
   end
 
